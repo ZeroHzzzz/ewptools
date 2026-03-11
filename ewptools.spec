@@ -1,8 +1,8 @@
-# -*- mode: python ; coding: utf-8 -*-
+﻿# -*- mode: python ; coding: utf-8 -*-
 
 
 a = Analysis(
-    ['ewptools.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -36,3 +36,4 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
 )
+
